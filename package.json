@@ -1,0 +1,24 @@
+{
+  "name": "slack-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsliBot/slack-client.git"
+  },
+  "author": "Udit Vasu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AsliBot/slack-client/issues"
+  },
+  "homepage": "https://github.com/AsliBot/slack-client#readme",
+  "dependencies": {
+    "asyncawait": "^1.0.6",
+    "axios": "^0.15.3",
+    "botkit": "^0.5.1"
+  }
+}
