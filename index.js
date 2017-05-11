@@ -1,7 +1,7 @@
 const Botkit = require('botkit');
 const axios = require('axios');
-const env = process.env.NODE_ENV || "DEV";
-const config = require('./config')[env];
+const ENV = process.env.NODE_ENV || "development";
+const config = require('./config')[ENV];
 
 const controller = Botkit.slackbot({ debug: false });
 
