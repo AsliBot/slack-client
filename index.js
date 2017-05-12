@@ -17,7 +17,7 @@ controller.hears('', ['direct_message', 'direct_mention', 'mention'], (bot, mess
     .then( res => {
       const response = res.data;
       if(response.error) {
-        bot.reply(message, "Sorry, please try again!");
+        bot.reply(message, "Oh no, there has been an internal server error");
       } else {
         bot.reply(message, response.data);
       }
